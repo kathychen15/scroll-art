@@ -1,13 +1,17 @@
 My artwork:
 
-I created two Java programs: Snoopy and Rain
+I originally created two Java programs: Snoopy and Rain
 
-- Snoopy.java is an original ASCII drawing that I created that repeatedly scrolls down the terminal
-- Rain.java is a repeating rain pattern that I also made using commas and apostraphes 
+- Snoopy is an original ASCII drawing that I created that repeatedly scrolls down the terminal
+- Rain is a repeating rain pattern that I also made using commas and apostraphes 
+
+I later then combined my drawings with three of my classmates' ASCII drawings into one. 
 
 My process
 
-I started by creating my ASCII drawings using https://www.asciiart.eu/ascii-draw-studio Ascii draw studio. I still had some some trouble with the Snoopy though. I had to delete some characters and move them around to make the drawing look right.
+I started by creating my ASCII drawings using https://www.asciiart.eu/ascii-draw-studio Ascii draw studio. I had some trouble with Snoopy because I needed to delete some characters and move them around to make the drawing look right. Unfortunately, I already closed out the tab, so I couldn't show my work.
+
+After creating my drawings, I then transformed them into java arrays and used loops to print them in the terminal. I used the pause() method using Thread.sleep(100) to make each drawing appear to contain a scrolling effect. 
 
  I used Sofia's original drawing and adapted part of her Java code to print Woodstock in the terminal. 
      public static void PRINTWOODSTOCK(char [][] woodstock){
@@ -19,4 +23,17 @@ I started by creating my ASCII drawings using https://www.asciiart.eu/ascii-draw
 
 I then used Caroline's totoro and Lark's elephant.
 
-For rain.java, I created a simple pattern consisting 
+
+Credits:
+
+Snoopy: my original ASCII drawing, created using the draw studio and based on the Snoopy Character - 1
+
+Rain: my other original ASCII drawing -  1
+
+Total: 1
+
+Woodstock: drawing by Sofia
+
+Totoro: Caroline
+
+Elpehant: Lark

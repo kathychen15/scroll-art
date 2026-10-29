@@ -1,4 +1,4 @@
-class Rain {
+class Kathy_Chen_AsciiArt_Main {
     public static void main(String[]args) throws Exception{
         
         String [][] rain = {
