@@ -2,7 +2,9 @@ class Rain {
     public static void main(String[]args) throws InterruptedException{
         
         String [][] rain = {
-           
+            {"   _       .."},
+            {" (   )   (   )"},
+            {"(______) (____)"},
             {" ‚‘‚‘‚‘‚‘  "},
             {"‚’‚’‚’‚’   "},
              {" ‚‘‚‘‚‘‚‘  "},
@@ -13,11 +15,26 @@ class Rain {
           { "‚’‚’‚’‚’  "},
           {"KC"}
         };
-    
+        
+        String [] snoopy={
+
+        "        /----- \\        ",
+    "   / - - / X X \\      ",
+     "  XX             \\  |       ",
+    "   \\————--\\-|       ",
+        "     |. XXXXXXXX\\        ",
+      "     /         | \\    ",
+         "    /          | |        ",
+      "    |             \\    |X            ",
+         "     \\            \\ |XX ",      
+          "      \\---- — —// XX     ",
+          "            KC     "
+        };
 
         while (true){
             
             PRINTRAIN(rain);
+            PRINTSNOOPY(snoopy);
             pause();
             PRINT();
         }
@@ -33,51 +50,14 @@ class Rain {
         }
     }
 
+    public static void PRINTSNOOPY(String [] snoopy){
+        for (int i = 0; i < snoopy.length; i++){
+            System.out.println(snoopy[i]);
+        }
+    }
+
     public static void pause() throws InterruptedException{
        Thread.sleep(300);
     }
 
-
-    
 }
-
-class Snoopy {
-    public static void main(String[] args) throws InterruptedException {
-    
-
-     String [] snoopy={
-
-        "        /----- \\        ",
-    "   / - - / X X \\      ",
-     "  XX             \\  |       ",
-    "   \\————--\\-|       ",
-        "     |. XXXXXXXX\\        ",
-      "     /         | \\    ",
-         "    /          | |        ",
-      "    |             \\    |X            ",
-         "     \\            \\ |XX ",      
-          "      \\---- — —// XX     ",
-          "            KC     "
-        };
-                
-
-   
-
-    
-  while(true){
-
-    for(int i = 0; i< snoopy.length; i++){
-       System.out.println(snoopy[i]);
-    }
-           Thread.sleep(300);
-    
-    }
-        }
-    
-    }   
-
-    
-
-    
-
-
